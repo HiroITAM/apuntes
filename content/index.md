@@ -2,14 +2,17 @@
 title: Mis Apuntes
 ---
 
-¡Bienvenido a mi jardín digital! 🌱
+¡Bienvenido a mi jardín digital de apuntes! 🌱
 
-Aquí publico mis apuntes y notas, construidos con [Quartz](https://quartz.jzhao.xyz) y alojados en GitHub Pages.
+## 📚 Mis libros
 
-## Por dónde empezar
-
-- [[ejemplo|Nota de ejemplo]] — cómo funcionan los enlaces y el formato.
+- [[intro-a-mecanica/index|📘 Introducción a Mecánica]]
+- [[algebra/index|📗 Álgebra]]
+- [[control/index|📙 Control]]
 
 ## Cómo está organizado
 
-Cada nota es un archivo Markdown dentro de la carpeta `content/`. Puedes enlazar entre notas con `[[corchetes dobles]]`, igual que en Obsidian.
+Cada libro es una **carpeta** dentro de `content/`, con una portada (`index.md`) y un capítulo por archivo `.md`. Los enlaces entre notas se hacen con `[[corchetes dobles]]`, igual que en Obsidian.
+
+> [!info] ¿Nuevo aquí?
+> Mira la [[ejemplo|nota de ejemplo]] para ver cómo se usan enlaces, callouts, código y fórmulas.

@@ -1,3 +1,16 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// === Aprovechar mejor la pantalla ===
+// Sube el ancho máximo de la página (por defecto era ~1500px).
+// Esto ensancha automáticamente la columna central de lectura.
+.page {
+  max-width: 1800px;
+}
+
+// Un poco más de aire entre las barras laterales y el centro en pantallas grandes.
+@media all and ($desktop) {
+  .page > #quartz-body {
+    column-gap: 2rem;
+  }
+}
+
